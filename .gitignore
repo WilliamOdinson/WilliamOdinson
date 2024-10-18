@@ -1,0 +1,10 @@
+.vscode
+*.code-workspace
+
+# macOS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
