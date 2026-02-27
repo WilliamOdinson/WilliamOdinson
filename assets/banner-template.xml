@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320">
+  <defs>
+    <filter id="card-shadow" x="-5%" y="-5%" width="115%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="{{SHADOW}}" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Banner background -->
+  <rect width="960" height="320" rx="16" fill="{{BG}}" />
+
+  <!-- Left: Name + Subtitle -->
+  <text x="280" y="120" text-anchor="end"
+    font-size="56" font-weight="700"
+    fill="{{FG}}">William</text>
+  <text x="268" y="180"
+    font-size="56" font-weight="700"
+    fill="{{FG}}" text-anchor="end">Sun</text>
+  <text x="45" y="240" text-anchor="start"
+    font-size="20" font-weight="400"
+    fill="{{MUTED}}">MISM@CMU</text>
+
+  <!-- Right: Code card -->
+  <rect x="320" y="52" width="608" height="216" rx="14"
+    fill="{{CARD}}" filter="url(#card-shadow)" />
+
+  <!-- Code lines -->
+  <text font-size="18" font-weight="400" fill="{{CODE}}">
+    <tspan x="352" y="100">fmt.Println("Hey! Welcome to my Github Profile!")</tspan>
+    <tspan x="352" y="134">fmt.Println("MISM @ Carnegie Mellon University")</tspan>
+    <tspan x="352" y="168">fmt.Println("Cloud Computing &amp; Distributed Systems")</tspan>
+    <tspan x="352" y="202">fmt.Println("AI Infrastructures")</tspan>
+    <tspan x="352" y="236" font-weight="700">fmt.Println("earthsuperman@outlook.com")</tspan>
+  </text>
+</svg>
